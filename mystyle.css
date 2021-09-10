@@ -244,6 +244,7 @@ body{
     position: relative;
     
 }
+
 #line1::after,#line2::after,#line3::after,#line4::after,#line5::after{
     position:absolute;
     content:"";
@@ -313,6 +314,27 @@ body{
     font-size: 17px;
     text-align: center;
     color:#FFFFFF;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
 }
 
 
